@@ -1,10 +1,25 @@
-body{
+body {
     font-family: 'Anton', sans-serif;
     font-family: 'Barlow Condensed', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-#Myname{
+
+#Myname {
     color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.half-width img {
+    width: 70%;
 }
